@@ -1,0 +1,11 @@
+.footer {
+  bottom: 20px;
+  font-size: small;
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+}
+
+.footer a {
+  text-decoration: none;
+}

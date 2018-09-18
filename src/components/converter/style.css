@@ -1,0 +1,59 @@
+.converter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vmin;
+}
+
+.converter input {
+  border-radius: 50px;
+  border: 4px solid cornflowerblue;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  font-size: calc(16px + 3vmin);
+  margin: calc(20px + 3vmin) 0;
+  max-width: 60%;
+  padding: calc(5px + 0.5vmin) calc(10px + 0.5vmin);
+  text-align: center;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  width: 200px;
+}
+
+.converter input:focus {
+  border-color: purple;
+  box-shadow: 0 0 0 10px rgba(133, 103, 214, 0.05);
+  outline: 0;
+}
+
+.converter small {
+  color: #999;
+  display: block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.converter small span {
+  color: purple;
+}
+
+.inputResult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputResult span {
+  padding: 2vmin;
+}
+
+@media screen and (min-width: 780px) {
+  .inputResult {
+    flex-direction: row;
+  }
+}
+
+.output {
+  font-size: calc(16px + 3vmin);
+}
