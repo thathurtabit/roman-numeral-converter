@@ -2,9 +2,34 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	min-height: 100%;
 	padding: 56px 20px;
 	text-align: center;
 	width: 100%;
+}
+
+.home h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: calc(16px + 3vmin);
+}
+
+.home h1 span {
+	color: purple;
+}
+
+.home p {
+	font-size: calc(16px + 0.1vmin);
+}
+
+.home small {
+  color: #444;
+  display: block;
+  font-size: 12px;
+}
+
+.home small span,
+.home sup {
+  color: purple;
 }
