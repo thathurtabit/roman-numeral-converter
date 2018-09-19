@@ -1,4 +1,5 @@
 import { converter } from '../src/components/converter/converter';
+import {MAX_NUM, INPUT_EMPTY, INPUT_MAX_NUM, INPUT_EMPTY, INPUT_STRING} from '../src/common/constants';
 
 describe('Initial testing of converter function', () => {
 	test('Expect text to return \'numbers only!\'', () => {
