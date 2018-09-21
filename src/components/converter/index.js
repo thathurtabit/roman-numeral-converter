@@ -13,7 +13,7 @@ class Converter extends Component {
     return (
       <section class={style.converter}>
         <section class={style.inputResult}>
-          <input onInput={linkState(this, 'value')} maxlength="4" value={value} /> <span>=</span> <p class={style.output}>{converter(value)}</p>
+          <input onInput={linkState(this, 'value')} maxlength="4" value={value} aria-labelledby="title" /> <span>=</span> <p class={style.output}>{converter(value)}</p>
         </section>
       </section>
     );
