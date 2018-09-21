@@ -9,7 +9,7 @@
 
 .converter input {
   border-radius: 50px;
-  border: 4px solid purple;
+  border: 4px solid #673ab8;
   box-shadow: 0 0 0 rgba(0,0,0,0);
   font-family: 'Roboto Condensed', sans-serif;
   font-size: calc(16px + 3vmin);
@@ -28,7 +28,7 @@
 }
 
 .converter input:focus {
-  border-color: purple;
+  border-color: #673ab8;
   box-shadow: 0 0 0 calc(10px + 0.5vmin) rgba(133, 103, 214, 0.1);
   outline: 0;
 }
@@ -52,7 +52,7 @@
 }
 
 p.output {
-  color: purple;
+  color: #673ab8;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: calc(16px + 3vmin);
   line-height: 1;

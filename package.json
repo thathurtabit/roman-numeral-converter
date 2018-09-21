@@ -9,7 +9,8 @@
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "deploy": "git push heroku master"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"

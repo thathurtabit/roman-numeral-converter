@@ -16,7 +16,7 @@
 }
 
 .home h1 span {
-	color: purple;
+	color: #673ab8;
 }
 
 .home p {
@@ -31,5 +31,5 @@
 
 .home small span,
 .home sup {
-  color: purple;
+  color: #673ab8;
 }
